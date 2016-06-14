@@ -1,6 +1,5 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
 </script><style type="text/css">
-#fanback{
+#fanback1{
 display:none;
 background:rgba(0,0,0,0.9);
 width:100%;
@@ -48,30 +47,18 @@ return(result=new RegExp('(?:^|; )'+encodeURIComponent(key)+'=([^;]*)').exec(doc
 };
 /*]]>*/</script><script type="text/javascript">jQuery(document).ready(function($){
 if(document.cookie.indexOf('visited=true')==-1){var fifteenDays=1000*60*60*6;var expires=new Date((new Date()).valueOf()+fifteenDays);document.cookie="visited=true;expires="+expires.toUTCString();
-$('#fanback').delay(8000).fadeIn('medium');
+$('#fanback1').delay(3000).fadeIn('medium');
 $('#fanclose, #fan-exit')(function(){
-$('#fanback').stop().fadeOut('medium');
+$('#fanback1').stop().fadeOut('medium');
 });}});
-</script><br /><div id="fanback"><div id="fan-exit"></div><div id="fanbox"><div class="remove-borda"></div>
+</script><br /><div id="fanback1"><div id="fan-exit"></div><div id="fanbox"><div class="remove-borda"></div>
 <center>
 <div class="asd">
-<div class="cds"></div>
-<div class="bds"></div>
-<script type="text/javascript">
-    google_ad_client = "ca-pub-7657970807660310";
-    google_ad_slot = "6019600185";
-    google_ad_width = 336;
-    google_ad_height = 280;
-    google_language = 'en';
-</script>
-<!-- sidebaradunit -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
+<img src="http://121corp.com/img/projects/print/fud_tailgate/print_thumb_fud_tailgate.jpg" alt="myads" />
 </div>
 
 </center>
 </div>
 </div>
-</div>
+
 <div class='clear'></div>
