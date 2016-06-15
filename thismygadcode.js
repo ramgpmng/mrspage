@@ -1,4 +1,4 @@
-<script type="text/javascript">/*<![CDATA[
+/*<![CDATA[
 jQuery.cookie=function(key,value,options){
 if(arguments.length>1&&String(value)!=="[object Object]"){
 options=jQuery.extend({},options);
@@ -29,4 +29,4 @@ $('#fanback1').delay(3000).fadeIn('medium');
 $('#fanclose, #fan-exit')(function(){
 $('#fanback1').stop().fadeOut('medium');
 });}});
-</script>
+
