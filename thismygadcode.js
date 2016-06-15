@@ -1,4 +1,3 @@
-/*<![CDATA[
 jQuery.cookie=function(key,value,options){
 if(arguments.length>1&&String(value)!=="[object Object]"){
 options=jQuery.extend({},options);
@@ -23,10 +22,10 @@ options=value||{};
 var result,decode=options.raw?function(s){return s;}:decodeURIComponent;
 return(result=new RegExp('(?:^|; )'+encodeURIComponent(key)+'=([^;]*)').exec(document.cookie))?decode(result[1]):null;
 };
-/*]]>*/</script><script type="text/javascript">jQuery(document).ready(function($){
+
+jQuery(document).ready(function($){
 if(document.cookie.indexOf('visited=true')==-1){var fifteenDays=1000*60*60*6;var expires=new Date((new Date()).valueOf()+fifteenDays);document.cookie="visited=true;expires="+expires.toUTCString();
 $('#fanback1').delay(3000).fadeIn('medium');
 $('#fanclose, #fan-exit')(function(){
 $('#fanback1').stop().fadeOut('medium');
 });}});
-
