@@ -1,26 +1,4 @@
-</script><style type="text/css">
-#fanback1{
-display:none;
-background:rgba(0,0,0,0.9);
-width:100%;
-height:100%;
-position:fixed;
-top:0;
-left:0;
-z-index:99999}
-#fan-exit{
-width:100%;
-height:100%
-}
-#fanbox{
-background:none;
-width:100%;
-height:auto;
-position:absolute;
-top:30%;
-}
-
-</style><script type="text/javascript">/*<![CDATA[
+<script type="text/javascript">/*<![CDATA[
 jQuery.cookie=function(key,value,options){
 if(arguments.length>1&&String(value)!=="[object Object]"){
 options=jQuery.extend({},options);
@@ -51,14 +29,4 @@ $('#fanback1').delay(3000).fadeIn('medium');
 $('#fanclose, #fan-exit')(function(){
 $('#fanback1').stop().fadeOut('medium');
 });}});
-</script><br /><div id="fanback1"><div id="fan-exit"></div><div id="fanbox"><div class="remove-borda"></div>
-<center>
-<div class="asd">
-<img src="http://121corp.com/img/projects/print/fud_tailgate/print_thumb_fud_tailgate.jpg" alt="myads" />
-</div>
-
-</center>
-</div>
-</div>
-
-<div class='clear'></div>
+</script>
